@@ -1,0 +1,71 @@
+* {
+  box-sizing: inherit;
+  margin: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.head img {
+  object-fit: cover;
+}
+.head {
+  position: relative;
+}
+.head-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.head-text h1 {
+  font-size: 70px;
+  font-weight: bold;
+  font-style: oblique;
+}
+.head-text p {
+  font-size: 30px;
+  font-style: oblique;
+}
+.sell-center {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 50px;
+  /* background-color: antiquewhite; */
+  margin: 0;
+}
+.style-ticket {
+  padding: 20px 50px;
+}
+.style-ticket li {
+  list-style: none;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 20px 110px;
+}
+.name-ticket {
+  font-weight: bolder;
+  font-size: 20px !important;
+  background-color: rgb(146, 41, 60);
+  color: white;
+}
+.style-ticket li {
+  font-size: 12px;
+}
+.buy-ticket {
+  font-weight: bolder;
+  font-size: 30px !important;
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+.buy-ticket a {
+  text-decoration: none;
+  color: black;
+}
+.buy-ticket a:hover {
+  color: orangered;
+}
+.price {
+  font-size: 24px !important;
+  font-weight: bolder;
+}

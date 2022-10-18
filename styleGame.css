@@ -1,0 +1,160 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/* Above reset css */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000015;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  right: 0;
+}
+.nav-menu a {
+  text-decoration: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: orange;
+}
+.nav-menu a:hover {
+  color: white;
+  background-color: black;
+}
+.container-heading {
+  position: relative;
+}
+.container-heading img {
+  filter: brightness(35%);
+  height: 800px;
+  object-fit: cover;
+}
+
+.heading-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: orangered;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.heading-text h1 {
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.heading-text h3 {
+  font-size: 30px;
+  font-weight: bolder;
+  color: orange;
+}
+
+.bg-opa {
+  opacity: 0.8;
+}
+.main {
+  display: block;
+  width: 80%;
+  margin: 0 auto !important;
+}
+.main h2 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  padding: 30px;
+}
+.games {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgba(0, 0, 47, 0.3);
+  justify-content: space-evenly;
+  padding: 40px 20px;
+}
+.game-list {
+  color: white;
+  line-height: 80px;
+  margin: 30px;
+  padding: 20px;
+  height: 200px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid gray;
+  background: rgba(255, 75, 255, 0.1);
+  box-shadow: 0 8px 40px 0 rgb(45 57 231 / 37%);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.game-list a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.game-list a:hover {
+  font-size: 20px;
+  text-align: center;
+}
+.container {
+  text-align: center;
+  padding: 24px 32px;
+}
+.container p {
+  color: white;
+}
+
+.container i,
+p {
+  font-size: 20px;
+}
+.container a {
+  color: white;
+}
+
+.footer {
+  background-color: rgb(23, 27, 30);
+}

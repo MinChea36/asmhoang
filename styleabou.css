@@ -1,0 +1,220 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/* Above reset css */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000015;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  right: 0;
+}
+.nav-menu a {
+  text-decoration: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: orange;
+}
+.nav-menu a:hover {
+  color: white;
+  background-color: black;
+}
+.nav {
+  position: relative;
+  display: flex;
+}
+.nav img {
+  filter: brightness(35%);
+}
+.nav-title {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  width: 70% !important;
+  margin: auto;
+  text-align: justify;
+}
+.nav-title h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: orange;
+}
+.nav-title p {
+  width: 60%;
+  color: white;
+}
+.mr-50 {
+  margin-top: 50px;
+}
+.nav-icons i {
+  color: white;
+  padding: 10px 10px 10px 0;
+  float: left;
+}
+.nav-icons i:hover {
+  color: grey;
+  font-size: 20px;
+}
+.more-band {
+  position: relative;
+}
+
+.more-band-text {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  text-shadow: 5px 2px 4px grey;
+}
+.btn {
+  margin-top: 20px;
+}
+.btn-band {
+  padding: 5px 15px;
+  border-radius: 8px;
+  border: 0px solid white;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+}
+.btn-band:hover {
+  background-color: aqua;
+}
+.img-body {
+  object-fit: cover;
+  height: auto;
+}
+.box-head {
+  text-align: center;
+  line-height: 70px;
+  margin-top: 20px;
+}
+.box-head h3 {
+  font-size: 40px;
+}
+.box-head p {
+  font-size: 20px;
+}
+.box-head p span {
+  color: #828282;
+}
+.box-body p {
+  padding: 30px 60px;
+  text-align: justify;
+  font-size: 18px;
+}
+.box {
+  width: 800px;
+  margin: 0 auto;
+}
+.more-hats {
+  font-weight: 600;
+  font-size: 24px;
+}
+.social-button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.like,
+.replie {
+  padding: 5px 10px;
+  border: 0px solid #8080804d;
+  color: black;
+}
+.like > a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  background-color: black;
+}
+.replie > a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  background-color: black;
+}
+.replie-number {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+}
+.like-text {
+  padding: 5px 10px;
+}
+
+.bands-img {
+  object-fit: cover;
+}
+
+.more-band-text h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.more-band-text h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.container {
+  text-align: center;
+  padding: 24px 32px;
+}
+
+.container i,
+p {
+  font-size: 20px;
+}
+.container a {
+  color: black;
+}
+
+.footer {
+  background-color: aliceblue;
+}

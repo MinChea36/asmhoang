@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/* Above reset css */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #000015;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  right: 0;
+}
+.nav-menu a {
+  text-decoration: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  color: orange;
+}
+.nav-menu a:hover {
+  color: white;
+  background-color: black;
+}
+.container-heading {
+  position: relative;
+}
+.container-heading img {
+  filter: brightness(20%);
+  height: 800px;
+  object-fit: cover;
+}
+
+.heading-text {
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.heading-text h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.heading-text h3 {
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: bolder;
+  color: darkgrey;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+.text p {
+  color: white !important;
+}
+
+.text,
+.text-right {
+  margin: 0 100px;
+  text-align: justify;
+  color: black;
+}
+
+.text h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+}
+
+.text p {
+  font-size: 18px;
+  text-indent: 50px;
+  margin-top: 30px;
+}
+
+.text-right {
+  margin-top: 30px;
+  font-weight: bolder;
+  word-spacing: 15px;
+  background-color: white;
+  padding-left: 20px;
+  padding: 8px;
+}
+
+.buy-this {
+  padding-left: 20px;
+  padding-right: 20px;
+  float: right;
+  border: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.buy-this:hover {
+  color: brown;
+}
+.container {
+  text-align: center;
+  padding: 24px 32px;
+}
+
+.container i,
+p {
+  font-size: 20px;
+}
+.container a {
+  color: black;
+}
+
+.footer {
+  background-color: aliceblue;
+}
